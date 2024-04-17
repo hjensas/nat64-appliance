@@ -1,0 +1,5 @@
+workdir
+venv
+nat64-appliance*.qcow2
+nat64-appliance.d
+nat64-appliance.qcow2-new

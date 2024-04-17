@@ -1,0 +1,13 @@
+---
+- imagename: nat64-appliance.qcow2
+  elements:
+    - fedora
+    - vm
+    - growroot
+    - package-installs
+    - nat64-router
+  environment:
+    DIB_RELEASE: '39'
+    DIB_PYTHON_VERSION: '3'
+    DIB_IMAGE_SIZE: '2'
+    COMPRESS_IMAGE: '1'

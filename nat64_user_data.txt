@@ -1,0 +1,8 @@
+#cloud-config
+write_files:
+  - path: /etc/nat64/config-data
+    owner: root:root
+    content: |
+      NAT64_IPV6_PREFIX=fd00:abcd:abcd:fc00::/64
+      NAT64_HOST_IPV6=fd00:abcd:abcd:fc00::2/64
+      NAT64_TAYGA_IPV6=fd00:abcd:abcd:fc00::3
